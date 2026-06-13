@@ -56,35 +56,35 @@ public class Main {
         String result1 = convertString(test1);
         System.out.println("Тест 1: \"" + test1 + "\" → \"" + result1 + "\"");
         System.out.println("Ожидаем: \"ABCCAAR\" | Результат: " + 
-            (result1.equals("ABCCAAR") ? "✅ PASS" : "❌ FAIL"));
+            (result1.equals("ABCCAAR") ? "PASS" : "FAIL"));
         
         // Тест 2: abCCaaR → abccaar (строчных: 5, заглавных: 2)
         String test2 = "abCCaaR";
         String result2 = convertString(test2);
         System.out.println("\nТест 2: \"" + test2 + "\" → \"" + result2 + "\"");
         System.out.println("Ожидаем: \"abccaar\" | Результат: " + 
-            (result2.equals("abccaar") ? "✅ PASS" : "❌ FAIL"));
+            (result2.equals("abccaar") ? "PASS" : "FAIL"));
         
         // Тест 3: Равное количество (например, "Aa")
         String test3 = "Aa";
         String result3 = convertString(test3);
         System.out.println("\nТест 3: \"" + test3 + "\" → \"" + result3 + "\"");
         System.out.println("Ожидаем: \"aa\" | Результат: " + 
-            (result3.equals("aa") ? "✅ PASS" : "❌ FAIL"));
+            (result3.equals("aa") ? "PASS" : "FAIL"));
         
         // Тест 4: Только заглавные
         String test4 = "ABC";
         String result4 = convertString(test4);
         System.out.println("\nТест 4: \"" + test4 + "\" → \"" + result4 + "\"");
         System.out.println("Ожидаем: \"ABC\" | Результат: " + 
-            (result4.equals("ABC") ? "✅ PASS" : "❌ FAIL"));
+            (result4.equals("ABC") ? "PASS" : "FAIL"));
         
         // Тест 5: Только строчные
         String test5 = "abc";
         String result5 = convertString(test5);
         System.out.println("\nТест 5: \"" + test5 + "\" → \"" + result5 + "\"");
         System.out.println("Ожидаем: \"abc\" | Результат: " + 
-            (result5.equals("abc") ? "✅ PASS" : "❌ FAIL"));
+            (result5.equals("abc") ? "PASS" : "FAIL"));
         
      
         // ввод с клавиатуры
